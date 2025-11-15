@@ -4,6 +4,7 @@
 import java.util.Scanner;
 class Example{
 static Scanner sc = new Scanner(System.in);
+static Example e = new Example();
 int a =sc.nextInt();
 char c =sc.next().charAt(0);
 float f =sc.nextFloat();
@@ -22,7 +23,7 @@ System.out.println(d);
 }
 
 static void m2(){
-Example e = new Example();
+
 System.out.println(e.a);
 System.out.println(e.c);
 System.out.println(e.f);
@@ -31,7 +32,7 @@ System.out.println(str);
 System.out.println(d);
 }
 public static void main(String [] args){
-Example e = new Example();
+
 e.m1();
 m2();
 
