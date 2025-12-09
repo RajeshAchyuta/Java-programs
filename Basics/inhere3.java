@@ -56,12 +56,26 @@ Employee2 e2= new Employee2();
 Employee3 e3= new Employee3();
 Employee4 e4= new Employee4();
 Employee5 e5= new Employee5();
+System.out.println("Enetr choice")
+int n =sc.nextInt();
+switch(n){
+case 1 : System.out.println("1 employee");
+         e1.display();
+case 2 : System.out.println("2 employee");
+         e2.display();
+case 3 : System.out.println("3 employee");
+         e3.display();
+case 4 : System.out.println("4 employee");
+         e4.display();
+case 5 : System.out.println("5 employee");
+         e5.display();
 
-e1.display();
-e2.display();
-e3.display();
-e4.display();
-e5.display();
+
+default :
+         System.out.println("invalid inputs");
+         break;
+}
+
 
 
 }
