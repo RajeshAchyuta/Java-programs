@@ -1,0 +1,7 @@
+create a jdbc app whrere we have to insert to new employee record with details like emid, emname, emsal ,emdesingnation ,working loactiom ,mobile number, adhar number, pancard,joindate and image into employee table;
+
+create a jdbc application  whrere we have to execute mutilple non select querries like inserting new record , updating particular record, deletibg particular coloumn, delteing particular record at a time by using batch processing 
+
+create a jdbc appllication  whrere we have tooperations like inserting a record , updating a record,and deleting particular record by using result set object without implemnrting non select query 
+
+create a jdbc application where we have to insert a new record in to particular table and then we have to display all the records of particular table by providing dynamic inputs with res prepared statement object and by using connection pool concept
