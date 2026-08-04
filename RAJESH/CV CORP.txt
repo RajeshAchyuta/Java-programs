@@ -1,0 +1,6 @@
+CV CORP
+COREJAVA JOB READY JULY
+Till202
+1) Create a java application where we need to create 2 user defined threads, handle two different types of exceptions like pre-defined and user-defined in two threads one each.
+2) Create a java application where we have one interface College having fields like cse_cutoff, ece_cutoff, civil_cutoff, mech_cutoff with static Inputs (max cutoff: 100)and we have a class Exam which contains private fields like std_id, std_name, std_marks then provide setter and getter methods for these variables and we have a class Detalls here create a ArrayList object and add 5 student details to it then display the student details along with the branch they may get seat in a method like display by providing dynamic inputs.
+3) Create a java application where we have one abstract class with one defined, undefined methods and a parameterized constructor, two interfaces with abstract and defined method one each then provide functionality for these without using extends or implements keyword and invoke them under a class called Test by providing dynamic inputs.

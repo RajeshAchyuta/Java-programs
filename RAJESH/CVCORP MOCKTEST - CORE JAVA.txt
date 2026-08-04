@@ -1,0 +1,9 @@
+CVCORP MOCKTEST - CORE JAVA
+Job Ready Batch - 233,235
+1. Create a Java application where we have to create a user defined class like employee, it contains variables like empid, empname and empsalary with parameterized constructor, setter and getter methods then we have to create object of any map then we have to add n no. Of emp details and manager ID values into map object then display all employees details in descending order based on emp salary.
+1
+2. Create a Java application where have to handle three exceptions like Nullpointer exception, Array index out of bounds exception and inputs mismatch exceptions by using single try and single catch block with all exception names.
+3. Create a Java application where we have to allow 5 threads to access the same method by providing thread safety by using custom defined threads
+end
+ins
+*

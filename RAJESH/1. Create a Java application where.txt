@@ -1,0 +1,21 @@
+//1. Create a Java application where we have one interface like Movie having fields like M NAME = "RRR" and PRICE = 250 Also create a separate abstract class 'Theatre' having private fields Mneme and price. These values should not be initialized directly but we have to initialize by this abstract class in a concrete class like BookMyShow, where the user provides values while using constructor injection. The abstract class contain an abstract method display(). Inherit creating the obiect. Compare the provided values with the values defined in the interface. If the values match, print "Ticket Booked Successfully" and display the movie name and price using the display() method; otherwise, raise a user-defined exception Invalid DetailsException.
+
+import java.util.Scanner;
+interface Movie
+{
+   String name = "RRR";
+   int price = 250;
+}
+abstract class Theatre
+{
+   private String name1;
+   private int price1;
+      class BookMyShow {
+      BookMyShow(String name1,int price1)
+     {
+        this.name1 = name1;
+        this.price1 = price1;
+     }
+    abstract void Display();
+  }
+}
